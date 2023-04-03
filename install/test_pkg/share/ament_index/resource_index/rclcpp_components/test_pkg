@@ -1,0 +1,7 @@
+test_pkg::SecondNode;lib/libtest_pkg.so
+test_pkg::TestNode;lib/libtest_pkg.so
+test_pkg::TopicsNode;lib/libtest_pkg.so
+test_pkg::TfListenerNode;lib/libtest_pkg.so
+test_pkg::TfBroadcasterNode;lib/libtest_pkg.so
+test_pkg::ActionServerNode;lib/libtest_pkg.so
+test_pkg::ActionClientNode;lib/libtest_pkg.so

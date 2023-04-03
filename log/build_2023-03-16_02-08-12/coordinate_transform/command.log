@@ -1,0 +1,4 @@
+Invoking command in '/home/aeluro/training_ws/src/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/coordinate_transform -- -j8 -l8
+Invoked command in '/home/aeluro/training_ws/src/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/coordinate_transform -- -j8 -l8
+Invoking command in '/home/aeluro/training_ws/src/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/coordinate_transform
+Invoked command in '/home/aeluro/training_ws/src/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/coordinate_transform

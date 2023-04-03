@@ -1,0 +1,14 @@
+<launch>
+    <!-- <arg name="background_r" default="0"/>
+    <arg name="background_g" default="255"/>
+    <arg name="background_b" default="0"/> -->
+
+    <node pkg="turtlesim" exec="turtlesim_node">
+        <param from="$(find-pkg-share test_pkg)/config/turtlesim_params.yaml" />
+        
+        <!-- <param name="background_r" value="$(var background_r)"/>
+        <param name="background_g" value="$(var background_g)"/>
+        <param name="background_b" value="$(var background_b)"/> -->
+    </node>
+    <node pkg="turtlesim" exec="draw_square" />
+</launch>

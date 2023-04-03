@@ -1,0 +1,6 @@
+Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mapping -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mapping
+Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mapping -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mapping
+Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mapping -- -j8 -l8
+Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mapping -- -j8 -l8
+Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mapping
+Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mapping

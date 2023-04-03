@@ -1,0 +1,27 @@
+[0.191s] Invoking command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mineral_deposit_tracking -- -j8 -l8
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target mineral_deposit_tracking[0m
+[0.518s] [ 50%] Built target mineral_deposit_tracking
+[0.632s] [35m[1mConsolidate compiler generated dependencies of target mineral_deposit_tracker[0m
+[0.714s] [100%] Built target mineral_deposit_tracker
+[0.823s] Invoked command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mineral_deposit_tracking -- -j8 -l8
+[1.102s] Invoking command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mineral_deposit_tracking
+[1.117s] -- Install configuration: ""
+[1.118s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+[1.145s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+[1.146s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+[1.146s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+[1.147s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+[1.148s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+[1.148s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+[1.154s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+[1.154s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+[1.155s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+[1.155s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+[1.155s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+[1.155s] -- Installing: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+[1.155s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+[1.156s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+[1.156s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+[1.156s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+[1.157s] -- Up-to-date: /home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml
+[1.344s] Invoked command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mineral_deposit_tracking

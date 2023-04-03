@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target first_node[0m
+[  8%] Built target first_node
+[35m[1mConsolidate compiler generated dependencies of target action_server_node[0m
+[ 16%] Built target action_server_node
+[35m[1mConsolidate compiler generated dependencies of target action_client_node[0m
+[ 25%] Built target action_client_node
+[35m[1mConsolidate compiler generated dependencies of target tf_broadcaster_node[0m
+[ 33%] Built target tf_broadcaster_node
+[35m[1mConsolidate compiler generated dependencies of target tf_listener_node[0m
+[ 41%] Built target tf_listener_node
+[35m[1mConsolidate compiler generated dependencies of target topics_node[0m
+[ 50%] Built target topics_node
+[35m[1mConsolidate compiler generated dependencies of target test_node[0m
+[ 58%] Built target test_node
+[35m[1mConsolidate compiler generated dependencies of target second_node[0m
+[ 66%] Built target second_node
+[35m[1mConsolidate compiler generated dependencies of target test_pkg[0m
+[100%] Built target test_pkg
+-- Install configuration: ""
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/first_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/libtest_pkg.so
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/second_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/test_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/topics_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/tf_listener_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/tf_broadcaster_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/action_server_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/lib/test_pkg/action_client_node
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/launch
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/launch/demo.launch.xml
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/launch/demo2.launch.py
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/launch/demo3.launch.py
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/config
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/config/turtlesim_params.yaml
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/ament_index/resource_index/package_run_dependencies/test_pkg
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/ament_index/resource_index/parent_prefix_path/test_pkg
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/environment/path.sh
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/environment/path.dsv
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/local_setup.bash
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/local_setup.sh
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/local_setup.zsh
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/local_setup.dsv
+-- Installing: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.dsv
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/ament_index/resource_index/rclcpp_components/test_pkg
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/cmake/test_pkgConfig.cmake
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/cmake/test_pkgConfig-version.cmake
+-- Up-to-date: /home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.xml

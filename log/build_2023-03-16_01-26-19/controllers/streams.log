@@ -1,0 +1,81 @@
+[0.166s] Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/controllers -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/controllers
+[1.033s] -- The C compiler identification is GNU 11.3.0
+[5.157s] -- The CXX compiler identification is GNU 11.3.0
+[10.629s] -- Detecting C compiler ABI info
+[11.594s] -- Detecting C compiler ABI info - done
+[11.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.643s] -- Detecting C compile features
+[11.647s] -- Detecting C compile features - done
+[11.659s] -- Detecting CXX compiler ABI info
+[12.674s] -- Detecting CXX compiler ABI info - done
+[12.688s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.688s] -- Detecting CXX compile features
+[12.689s] -- Detecting CXX compile features - done
+[12.712s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.339s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[13.616s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[14.765s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.772s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.800s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.126s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.137s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[18.262s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[25.599s] -- Found FastRTPS: /opt/ros/humble/include  
+[38.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[38.662s] -- Looking for pthread.h
+[40.507s] -- Looking for pthread.h - found
+[40.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[42.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.220s] -- Found Threads: TRUE  
+[43.025s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[43.513s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[43.794s] -- Found nav2_core: 1.1.6 (/opt/ros/humble/share/nav2_core/cmake)
+[47.439s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[47.439s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[71.962s] -- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+[75.427s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[77.186s] -- Added test 'copyright' to check source files copyright and LICENSE
+[77.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[77.219s] -- Configured cppcheck include dirs: 
+[77.220s] -- Configured cppcheck exclude dirs and/or files: 
+[77.224s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[77.224s] -- Configured cpplint exclude dirs and/or files: 
+[77.231s] -- Added test 'lint_cmake' to check CMake code style
+[77.236s] -- Added test 'uncrustify' to check C / C++ code style
+[77.243s] -- Configured uncrustify additional arguments: 
+[77.533s] -- Added test 'xmllint' to check XML markup files
+[77.556s] -- Configuring done
+[78.866s] -- Generating done
+[78.931s] -- Build files have been written to: /home/aeluro/training_ws/src/build/controllers
+[79.184s] Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/controllers -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/controllers
+[79.185s] Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/controllers -- -j8 -l8
+[102.328s] [ 25%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/lqr_controller.cpp.o[0m
+[139.958s] [ 50%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/test_path_generator.cpp.o[0m
+[156.378s] [ 75%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/pid_controller.cpp.o[0m
+[172.026s] [100%] [32m[1mLinking CXX shared library libcontrollers.so[0m
+[173.515s] [100%] Built target controllers
+[173.537s] Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/controllers -- -j8 -l8
+[173.590s] Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/controllers
+[173.605s] -- Install configuration: ""
+[173.606s] -- Installing: /home/aeluro/training_ws/src/install/controllers/lib/libcontrollers.so
+[173.614s] -- Set runtime path of "/home/aeluro/training_ws/src/install/controllers/lib/libcontrollers.so" to ""
+[173.615s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/plugin_descriptions.xml
+[173.620s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+[173.623s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+[173.624s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/environment/ament_prefix_path.sh
+[173.625s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+[173.625s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/environment/path.sh
+[173.626s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/environment/path.dsv
+[173.627s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/local_setup.bash
+[173.628s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/local_setup.sh
+[173.629s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/local_setup.zsh
+[173.630s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/local_setup.dsv
+[173.631s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/package.dsv
+[173.633s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/ament_index/resource_index/packages/controllers
+[173.635s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+[173.639s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/cmake/controllersConfig.cmake
+[173.641s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+[173.645s] -- Installing: /home/aeluro/training_ws/src/install/controllers/share/controllers/package.xml
+[173.647s] Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/controllers

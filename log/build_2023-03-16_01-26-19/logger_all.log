@@ -1,0 +1,966 @@
+[1.601s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.602s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94d0cac580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94d149e410>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94d149e410>>)
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.732s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aeluro/training_ws/src'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['ignore', 'ignore_ament_install']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'ignore'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'ignore_ament_install'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['colcon_pkg']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'colcon_pkg'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['colcon_meta']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'colcon_meta'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['ros']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'ros'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['cmake', 'python']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'cmake'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'python'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extensions ['python_setup_py']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training) by extension 'python_setup_py'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extensions ['ignore', 'ignore_ament_install']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extension 'ignore'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extension 'ignore_ament_install'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extensions ['colcon_pkg']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extension 'colcon_pkg'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extensions ['colcon_meta']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extension 'colcon_meta'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extensions ['ros']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/astar_path_planner) by extension 'ros'
+[1.769s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/astar_path_planner' with type 'ros.ament_cmake' and name 'astar_path_planner'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extension 'colcon_meta'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extensions ['ros']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/controllers) by extension 'ros'
+[1.772s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/controllers' with type 'ros.ament_cmake' and name 'controllers'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extensions ['ignore', 'ignore_ament_install']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extension 'ignore'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extension 'ignore_ament_install'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extensions ['colcon_pkg']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extension 'colcon_pkg'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extensions ['colcon_meta']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extension 'colcon_meta'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extensions ['ros']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/coordinate_transform) by extension 'ros'
+[1.774s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/coordinate_transform' with type 'ros.ament_cmake' and name 'coordinate_transform'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extensions ['ignore', 'ignore_ament_install']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extension 'ignore'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extension 'ignore_ament_install'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extensions ['colcon_pkg']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extension 'colcon_pkg'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extensions ['colcon_meta']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extensions ['ros']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/localization) by extension 'ros'
+[1.777s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/localization' with type 'ros.ament_cmake' and name 'localization'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extensions ['ignore', 'ignore_ament_install']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extension 'ignore'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extension 'ignore_ament_install'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extensions ['colcon_pkg']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extension 'colcon_pkg'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extensions ['colcon_meta']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extension 'colcon_meta'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extensions ['ros']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mapping) by extension 'ros'
+[1.779s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extensions ['ignore', 'ignore_ament_install']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extension 'ignore'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extension 'ignore_ament_install'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extensions ['colcon_pkg']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extension 'colcon_pkg'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extensions ['colcon_meta']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extension 'colcon_meta'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extensions ['ros']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/mineral_deposit_tracking) by extension 'ros'
+[1.781s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/mineral_deposit_tracking' with type 'ros.ament_cmake' and name 'mineral_deposit_tracking'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extensions ['ignore', 'ignore_ament_install']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extension 'ignore'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/obstacle_detector) by extension 'ros'
+[1.783s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/obstacle_detector' with type 'ros.ament_cmake' and name 'obstacle_detector'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extensions ['ignore', 'ignore_ament_install']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extension 'ignore'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extension 'ignore_ament_install'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extensions ['colcon_pkg']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extension 'colcon_pkg'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extensions ['colcon_meta']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extension 'colcon_meta'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extensions ['ros']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/peak_finder) by extension 'ros'
+[1.785s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/peak_finder' with type 'ros.ament_cmake' and name 'peak_finder'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['ignore', 'ignore_ament_install']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'ignore'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'ignore_ament_install'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['colcon_pkg']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'colcon_pkg'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['colcon_meta']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'colcon_meta'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['ros']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'ros'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['cmake', 'python']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'cmake'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'python'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extensions ['python_setup_py']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects) by extension 'python_setup_py'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['ignore', 'ignore_ament_install']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'ignore'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'ignore_ament_install'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['colcon_pkg']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'colcon_pkg'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['colcon_meta']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'colcon_meta'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['ros']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'ros'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['cmake', 'python']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'cmake'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'python'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extensions ['python_setup_py']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_1) by extension 'python_setup_py'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['ignore', 'ignore_ament_install']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'ignore'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'ignore_ament_install'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['colcon_pkg']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'colcon_pkg'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['colcon_meta']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'colcon_meta'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['ros']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'ros'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['cmake', 'python']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'cmake'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'python'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extensions ['python_setup_py']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_2) by extension 'python_setup_py'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['ignore', 'ignore_ament_install']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'ignore'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'ignore_ament_install'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['colcon_pkg']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'colcon_pkg'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['colcon_meta']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'colcon_meta'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['ros']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'ros'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['cmake', 'python']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'cmake'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'python'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extensions ['python_setup_py']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_3) by extension 'python_setup_py'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['ignore', 'ignore_ament_install']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'ignore'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'ignore_ament_install'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['colcon_pkg']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'colcon_pkg'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['colcon_meta']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'colcon_meta'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['ros']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'ros'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['cmake', 'python']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'cmake'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'python'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extensions ['python_setup_py']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_4) by extension 'python_setup_py'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['ignore', 'ignore_ament_install']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'ignore'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'ignore_ament_install'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['colcon_pkg']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'colcon_pkg'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['colcon_meta']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'colcon_meta'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['ros']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'ros'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['cmake', 'python']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'cmake'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'python'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extensions ['python_setup_py']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_5) by extension 'python_setup_py'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['ignore', 'ignore_ament_install']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'ignore'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'ignore_ament_install'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['colcon_pkg']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'colcon_pkg'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['colcon_meta']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'colcon_meta'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['ros']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'ros'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['cmake', 'python']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'cmake'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'python'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extensions ['python_setup_py']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_6) by extension 'python_setup_py'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['ignore', 'ignore_ament_install']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'ignore'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'ignore_ament_install'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['colcon_pkg']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'colcon_pkg'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['colcon_meta']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'colcon_meta'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['ros']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'ros'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['cmake', 'python']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'cmake'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'python'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extensions ['python_setup_py']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_7) by extension 'python_setup_py'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['ignore', 'ignore_ament_install']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'ignore'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'ignore_ament_install'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['colcon_pkg']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'colcon_pkg'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['colcon_meta']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'colcon_meta'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['ros']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'ros'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['cmake', 'python']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'cmake'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'python'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extensions ['python_setup_py']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/projects/week_8) by extension 'python_setup_py'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/reference_solutions) by extensions ['ignore', 'ignore_ament_install']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/reference_solutions) by extension 'ignore'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/reference_solutions) ignored
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extension 'ignore_ament_install'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extensions ['colcon_pkg']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extension 'colcon_pkg'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extensions ['colcon_meta']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extension 'colcon_meta'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extensions ['ros']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/rj_training_bringup) by extension 'ros'
+[1.795s] DEBUG:colcon.colcon_core.package_identification:Package 'software-training/rj_training_bringup' with type 'ros.ament_cmake' and name 'rj_training_bringup'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'ignore_ament_install'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['colcon_pkg']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'colcon_pkg'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['colcon_meta']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'colcon_meta'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['ros']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'ros'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['cmake', 'python']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'cmake'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'python'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extensions ['python_setup_py']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(software-training/setup_instructons) by extension 'python_setup_py'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ignore'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ignore_ament_install'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['colcon_pkg']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'colcon_pkg'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['colcon_meta']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'colcon_meta'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extensions ['ros']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(test_pkg) by extension 'ros'
+[1.798s] DEBUG:colcon.colcon_core.package_identification:Package 'test_pkg' with type 'ros.ament_cmake' and name 'test_pkg'
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.885s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/aeluro/training_ws/install
+[1.891s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /opt/ros/humble
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_args' from command line to 'None'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_target' from command line to 'None'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_clean_first' from command line to 'False'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'cmake_force_configure' from command line to 'False'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'ament_cmake_args' from command line to 'None'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[2.114s] Level 5:colcon.colcon_core.verb:set package 'astar_path_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.114s] DEBUG:colcon.colcon_core.verb:Building package 'astar_path_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/astar_path_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/astar_path_planner', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/astar_path_planner', 'symlink_install': False, 'test_result_base': None}
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_args' from command line to 'None'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_target' from command line to 'None'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_clean_first' from command line to 'False'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'cmake_force_configure' from command line to 'False'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'ament_cmake_args' from command line to 'None'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.115s] Level 5:colcon.colcon_core.verb:set package 'controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.115s] DEBUG:colcon.colcon_core.verb:Building package 'controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/controllers', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/controllers', 'symlink_install': False, 'test_result_base': None}
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_target' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_clean_first' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'cmake_force_configure' from command line to 'False'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'ament_cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[2.117s] Level 5:colcon.colcon_core.verb:set package 'coordinate_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.117s] DEBUG:colcon.colcon_core.verb:Building package 'coordinate_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/coordinate_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/coordinate_transform', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/coordinate_transform', 'symlink_install': False, 'test_result_base': None}
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[2.118s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.118s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/localization', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/localization', 'symlink_install': False, 'test_result_base': None}
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[2.119s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.120s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/mapping', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/mapping', 'symlink_install': False, 'test_result_base': None}
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_target' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'mineral_deposit_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.121s] DEBUG:colcon.colcon_core.verb:Building package 'mineral_deposit_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/mineral_deposit_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/mineral_deposit_tracking', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/mineral_deposit_tracking', 'symlink_install': False, 'test_result_base': None}
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[2.123s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[2.123s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.123s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/obstacle_detector', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/obstacle_detector', 'symlink_install': False, 'test_result_base': None}
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_target' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_clean_cache' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_clean_first' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'cmake_force_configure' from command line to 'False'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'ament_cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'catkin_cmake_args' from command line to 'None'
+[2.124s] Level 5:colcon.colcon_core.verb:set package 'peak_finder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.124s] DEBUG:colcon.colcon_core.verb:Building package 'peak_finder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/peak_finder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/peak_finder', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/peak_finder', 'symlink_install': False, 'test_result_base': None}
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_args' from command line to 'None'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_target' from command line to 'None'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'rj_training_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.125s] DEBUG:colcon.colcon_core.verb:Building package 'rj_training_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/rj_training_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/rj_training_bringup', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/software-training/rj_training_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.127s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeluro/training_ws/src/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeluro/training_ws/src/install/test_pkg', 'merge_install': False, 'path': '/home/aeluro/training_ws/src/test_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.128s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.133s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/astar_path_planner' with build type 'ament_cmake'
+[2.133s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/astar_path_planner'
+[2.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/controllers' with build type 'ament_cmake'
+[2.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/controllers'
+[2.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/coordinate_transform' with build type 'ament_cmake'
+[2.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/coordinate_transform'
+[2.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/localization' with build type 'ament_cmake'
+[2.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/localization'
+[2.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/mapping' with build type 'ament_cmake'
+[2.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/mapping'
+[2.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/mineral_deposit_tracking' with build type 'ament_cmake'
+[2.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/mineral_deposit_tracking'
+[2.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/obstacle_detector' with build type 'ament_cmake'
+[2.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/obstacle_detector'
+[2.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/peak_finder' with build type 'ament_cmake'
+[2.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/peak_finder'
+[2.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/astar_path_planner
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/controllers -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/controllers
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/coordinate_transform -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/coordinate_transform
+[2.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/localization
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mapping -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mapping
+[2.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mineral_deposit_tracking
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/obstacle_detector
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/peak_finder -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/peak_finder
+[49.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mapping -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mapping
+[49.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mapping -- -j8 -l8
+[51.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/peak_finder -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/peak_finder
+[51.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/peak_finder -- -j8 -l8
+[51.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/localization -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/localization
+[51.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/localization -- -j8 -l8
+[60.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/mineral_deposit_tracking
+[60.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mineral_deposit_tracking -- -j8 -l8
+[74.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/obstacle_detector -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/obstacle_detector
+[74.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/obstacle_detector -- -j8 -l8
+[81.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/astar_path_planner
+[81.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/astar_path_planner -- -j8 -l8
+[81.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/controllers -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/controllers
+[81.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/controllers -- -j8 -l8
+[87.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/coordinate_transform -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/coordinate_transform
+[87.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/coordinate_transform -- -j8 -l8
+[104.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mapping -- -j8 -l8
+[105.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mapping
+[133.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/peak_finder -- -j8 -l8
+[133.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/peak_finder
+[141.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[141.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/localization -- -j8 -l8
+[141.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mapping
+[141.796s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping' for CMake module files
+[141.798s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping' for CMake config files
+[141.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[141.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[141.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[141.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[141.820s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib'
+[141.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[141.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.ps1'
+[141.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.dsv'
+[141.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.sh'
+[141.826s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/bin'
+[141.826s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib/pkgconfig/mapping.pc'
+[141.830s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib/python3.10/site-packages'
+[141.830s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/bin'
+[141.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.ps1'
+[141.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.dsv'
+[141.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.sh'
+[141.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.bash'
+[141.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.zsh'
+[141.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/mapping/share/colcon-core/packages/mapping)
+[141.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peak_finder)
+[141.861s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder' for CMake module files
+[141.862s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder' for CMake config files
+[141.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/peak_finder
+[141.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'cmake_prefix_path')
+[141.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.ps1'
+[141.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.dsv'
+[141.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.sh'
+[141.873s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib'
+[141.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'ld_library_path_lib')
+[141.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.ps1'
+[141.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.dsv'
+[141.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.sh'
+[141.882s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/bin'
+[141.882s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib/pkgconfig/peak_finder.pc'
+[141.883s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib/python3.10/site-packages'
+[141.884s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/bin'
+[141.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.ps1'
+[141.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.dsv'
+[141.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.sh'
+[141.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.bash'
+[141.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.zsh'
+[141.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/peak_finder/share/colcon-core/packages/peak_finder)
+[141.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/localization
+[141.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[141.942s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping' for CMake module files
+[141.943s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping' for CMake config files
+[141.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[141.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[141.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[141.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[141.951s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib'
+[141.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[141.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.ps1'
+[141.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.dsv'
+[141.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mapping/share/mapping/hook/ld_library_path_lib.sh'
+[141.958s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/bin'
+[141.958s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib/pkgconfig/mapping.pc'
+[141.958s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/lib/python3.10/site-packages'
+[141.966s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mapping/bin'
+[141.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.ps1'
+[141.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.dsv'
+[141.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.sh'
+[141.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.bash'
+[141.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mapping/share/mapping/package.zsh'
+[141.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/mapping/share/colcon-core/packages/mapping)
+[141.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/software-training/rj_training_bringup' with build type 'ament_cmake'
+[141.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/software-training/rj_training_bringup'
+[142.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[142.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[142.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[142.197s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization' for CMake module files
+[142.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/localization
+[142.200s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization' for CMake config files
+[142.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[142.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[142.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[142.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[142.215s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib'
+[142.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[142.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[142.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[142.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[142.221s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/bin'
+[142.221s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib/pkgconfig/localization.pc'
+[142.222s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib/python3.10/site-packages'
+[142.222s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/bin'
+[142.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.ps1'
+[142.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/package.dsv'
+[142.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.sh'
+[142.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.bash'
+[142.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.zsh'
+[142.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/localization/share/colcon-core/packages/localization)
+[142.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peak_finder)
+[142.262s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder' for CMake module files
+[142.263s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder' for CMake config files
+[142.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'cmake_prefix_path')
+[142.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.ps1'
+[142.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.dsv'
+[142.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/cmake_prefix_path.sh'
+[142.271s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib'
+[142.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('peak_finder', 'ld_library_path_lib')
+[142.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.ps1'
+[142.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.dsv'
+[142.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/hook/ld_library_path_lib.sh'
+[142.281s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/bin'
+[142.281s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib/pkgconfig/peak_finder.pc'
+[142.282s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/lib/python3.10/site-packages'
+[142.283s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/peak_finder/bin'
+[142.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.ps1'
+[142.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.dsv'
+[142.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.sh'
+[142.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.bash'
+[142.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.zsh'
+[142.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/peak_finder/share/colcon-core/packages/peak_finder)
+[142.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/rj_training_bringup
+[142.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeluro/training_ws/src/test_pkg' with build type 'ament_cmake'
+[142.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeluro/training_ws/src/test_pkg'
+[142.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[142.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[142.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/test_pkg
+[142.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[142.458s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization' for CMake module files
+[142.459s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization' for CMake config files
+[142.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[142.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[142.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[142.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[142.467s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib'
+[142.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[142.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[142.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[142.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[142.475s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/bin'
+[142.476s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib/pkgconfig/localization.pc'
+[142.478s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/lib/python3.10/site-packages'
+[142.479s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/localization/bin'
+[142.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.ps1'
+[142.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/localization/share/localization/package.dsv'
+[142.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.sh'
+[142.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.bash'
+[142.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/localization/share/localization/package.zsh'
+[142.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/localization/share/colcon-core/packages/localization)
+[148.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/mineral_deposit_tracking -- -j8 -l8
+[148.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mineral_deposit_tracking
+[150.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mineral_deposit_tracking)
+[150.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/rj_training_bringup
+[150.697s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking' for CMake module files
+[150.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/rj_training_bringup -- -j8 -l8
+[150.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/mineral_deposit_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/mineral_deposit_tracking
+[150.702s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking' for CMake config files
+[150.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'cmake_prefix_path')
+[150.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.ps1'
+[150.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.dsv'
+[150.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.sh'
+[150.724s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib'
+[150.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'ld_library_path_lib')
+[150.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.ps1'
+[150.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.dsv'
+[150.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.sh'
+[150.747s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/bin'
+[150.747s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/pkgconfig/mineral_deposit_tracking.pc'
+[150.748s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/python3.10/site-packages'
+[150.748s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/bin'
+[150.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.ps1'
+[150.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv'
+[150.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.sh'
+[150.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.bash'
+[150.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.zsh'
+[150.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/colcon-core/packages/mineral_deposit_tracking)
+[150.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/rj_training_bringup -- -j8 -l8
+[150.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mineral_deposit_tracking)
+[150.916s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking' for CMake module files
+[150.918s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking' for CMake config files
+[150.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'cmake_prefix_path')
+[150.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.ps1'
+[150.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.dsv'
+[150.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/cmake_prefix_path.sh'
+[150.929s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib'
+[150.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('mineral_deposit_tracking', 'ld_library_path_lib')
+[150.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.ps1'
+[150.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.dsv'
+[150.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/hook/ld_library_path_lib.sh'
+[150.935s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/bin'
+[150.935s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/pkgconfig/mineral_deposit_tracking.pc'
+[150.937s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/lib/python3.10/site-packages'
+[150.938s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/bin'
+[150.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.ps1'
+[150.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv'
+[150.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.sh'
+[150.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.bash'
+[150.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.zsh'
+[150.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/mineral_deposit_tracking/share/colcon-core/packages/mineral_deposit_tracking)
+[150.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/rj_training_bringup
+[151.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rj_training_bringup)
+[151.033s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup' for CMake module files
+[151.034s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup' for CMake config files
+[151.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('rj_training_bringup', 'cmake_prefix_path')
+[151.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.ps1'
+[151.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.dsv'
+[151.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.sh'
+[151.043s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/bin'
+[151.043s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/lib/pkgconfig/rj_training_bringup.pc'
+[151.044s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/lib/python3.10/site-packages'
+[151.044s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/bin'
+[151.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.ps1'
+[151.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/rj_training_bringup
+[151.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.dsv'
+[151.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.sh'
+[151.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.bash'
+[151.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.zsh'
+[151.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/rj_training_bringup/share/colcon-core/packages/rj_training_bringup)
+[151.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rj_training_bringup)
+[151.124s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup' for CMake module files
+[151.125s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup' for CMake config files
+[151.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('rj_training_bringup', 'cmake_prefix_path')
+[151.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.ps1'
+[151.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.dsv'
+[151.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/hook/cmake_prefix_path.sh'
+[151.139s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/bin'
+[151.139s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/lib/pkgconfig/rj_training_bringup.pc'
+[151.140s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/lib/python3.10/site-packages'
+[151.140s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/rj_training_bringup/bin'
+[151.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.ps1'
+[151.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.dsv'
+[151.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.sh'
+[151.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.bash'
+[151.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.zsh'
+[151.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/rj_training_bringup/share/colcon-core/packages/rj_training_bringup)
+[153.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/obstacle_detector -- -j8 -l8
+[153.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/obstacle_detector
+[154.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[154.048s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector' for CMake module files
+[154.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/obstacle_detector
+[154.050s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector' for CMake config files
+[154.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[154.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[154.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[154.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[154.058s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib'
+[154.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[154.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[154.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[154.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[154.065s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/bin'
+[154.065s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[154.066s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib/python3.10/site-packages'
+[154.066s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/bin'
+[154.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[154.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[154.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.sh'
+[154.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.bash'
+[154.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[154.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[154.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detector)
+[154.186s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector' for CMake module files
+[154.187s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector' for CMake config files
+[154.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'cmake_prefix_path')
+[154.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.ps1'
+[154.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.dsv'
+[154.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/cmake_prefix_path.sh'
+[154.194s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib'
+[154.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detector', 'ld_library_path_lib')
+[154.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.ps1'
+[154.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.dsv'
+[154.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/hook/ld_library_path_lib.sh'
+[154.202s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/bin'
+[154.202s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib/pkgconfig/obstacle_detector.pc'
+[154.203s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/lib/python3.10/site-packages'
+[154.204s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/obstacle_detector/bin'
+[154.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.ps1'
+[154.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.dsv'
+[154.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.sh'
+[154.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.bash'
+[154.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.zsh'
+[154.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/obstacle_detector/share/colcon-core/packages/obstacle_detector)
+[159.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/coordinate_transform -- -j8 -l8
+[159.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/coordinate_transform
+[159.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coordinate_transform)
+[159.473s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform' for CMake module files
+[159.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/coordinate_transform
+[159.476s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform' for CMake config files
+[159.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'cmake_prefix_path')
+[159.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.ps1'
+[159.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.dsv'
+[159.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.sh'
+[159.485s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib'
+[159.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'ld_library_path_lib')
+[159.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.ps1'
+[159.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.dsv'
+[159.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.sh'
+[159.494s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/bin'
+[159.494s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib/pkgconfig/coordinate_transform.pc'
+[159.495s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib/python3.10/site-packages'
+[159.495s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/bin'
+[159.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.ps1'
+[159.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.dsv'
+[159.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.sh'
+[159.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.bash'
+[159.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.zsh'
+[159.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/coordinate_transform/share/colcon-core/packages/coordinate_transform)
+[159.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(coordinate_transform)
+[159.595s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform' for CMake module files
+[159.597s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform' for CMake config files
+[159.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'cmake_prefix_path')
+[159.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.ps1'
+[159.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.dsv'
+[159.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/cmake_prefix_path.sh'
+[159.612s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib'
+[159.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('coordinate_transform', 'ld_library_path_lib')
+[159.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.ps1'
+[159.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.dsv'
+[159.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/hook/ld_library_path_lib.sh'
+[159.625s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/bin'
+[159.625s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib/pkgconfig/coordinate_transform.pc'
+[159.626s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/lib/python3.10/site-packages'
+[159.627s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/coordinate_transform/bin'
+[159.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.ps1'
+[159.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.dsv'
+[159.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.sh'
+[159.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.bash'
+[159.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/coordinate_transform/share/coordinate_transform/package.zsh'
+[159.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/coordinate_transform/share/colcon-core/packages/coordinate_transform)
+[160.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/astar_path_planner -- -j8 -l8
+[160.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/astar_path_planner
+[160.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astar_path_planner)
+[160.248s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner' for CMake module files
+[160.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/astar_path_planner
+[160.249s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner' for CMake config files
+[160.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'cmake_prefix_path')
+[160.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.ps1'
+[160.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.dsv'
+[160.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.sh'
+[160.254s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib'
+[160.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'ld_library_path_lib')
+[160.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.ps1'
+[160.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.dsv'
+[160.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.sh'
+[160.260s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/bin'
+[160.261s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib/pkgconfig/astar_path_planner.pc'
+[160.261s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib/python3.10/site-packages'
+[160.261s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/bin'
+[160.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.ps1'
+[160.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.dsv'
+[160.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.sh'
+[160.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.bash'
+[160.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.zsh'
+[160.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/astar_path_planner/share/colcon-core/packages/astar_path_planner)
+[160.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astar_path_planner)
+[160.341s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner' for CMake module files
+[160.342s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner' for CMake config files
+[160.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'cmake_prefix_path')
+[160.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.ps1'
+[160.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.dsv'
+[160.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/cmake_prefix_path.sh'
+[160.348s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib'
+[160.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('astar_path_planner', 'ld_library_path_lib')
+[160.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.ps1'
+[160.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.dsv'
+[160.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/hook/ld_library_path_lib.sh'
+[160.353s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/bin'
+[160.353s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib/pkgconfig/astar_path_planner.pc'
+[160.354s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/lib/python3.10/site-packages'
+[160.354s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/astar_path_planner/bin'
+[160.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.ps1'
+[160.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.dsv'
+[160.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.sh'
+[160.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.bash'
+[160.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.zsh'
+[160.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/astar_path_planner/share/colcon-core/packages/astar_path_planner)
+[174.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/test_pkg -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/test_pkg
+[174.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/test_pkg -- -j8 -l8
+[175.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/controllers -- -j8 -l8
+[175.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/controllers
+[175.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controllers)
+[175.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/controllers
+[175.818s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers' for CMake module files
+[175.819s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers' for CMake config files
+[175.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'cmake_prefix_path')
+[175.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.ps1'
+[175.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.dsv'
+[175.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.sh'
+[175.829s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib'
+[175.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'ld_library_path_lib')
+[175.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.ps1'
+[175.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.dsv'
+[175.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.sh'
+[175.834s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/bin'
+[175.834s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib/pkgconfig/controllers.pc'
+[175.834s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib/python3.10/site-packages'
+[175.835s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/bin'
+[175.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.ps1'
+[175.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.dsv'
+[175.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.sh'
+[175.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.bash'
+[175.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.zsh'
+[175.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/controllers/share/colcon-core/packages/controllers)
+[175.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controllers)
+[175.911s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers' for CMake module files
+[175.913s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers' for CMake config files
+[175.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'cmake_prefix_path')
+[175.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.ps1'
+[175.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.dsv'
+[175.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/cmake_prefix_path.sh'
+[175.918s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib'
+[175.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('controllers', 'ld_library_path_lib')
+[175.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.ps1'
+[175.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.dsv'
+[175.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/controllers/share/controllers/hook/ld_library_path_lib.sh'
+[175.922s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/bin'
+[175.922s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib/pkgconfig/controllers.pc'
+[175.923s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/lib/python3.10/site-packages'
+[175.923s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/controllers/bin'
+[175.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.ps1'
+[175.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.dsv'
+[175.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.sh'
+[175.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.bash'
+[175.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/controllers/share/controllers/package.zsh'
+[175.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/controllers/share/colcon-core/packages/controllers)
+[219.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/test_pkg -- -j8 -l8
+[219.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeluro/training_ws/src/build/test_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/test_pkg
+[219.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[219.621s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg' for CMake module files
+[219.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeluro/training_ws/src/build/test_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/test_pkg
+[219.622s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg' for CMake config files
+[219.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'cmake_prefix_path')
+[219.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.ps1'
+[219.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.dsv'
+[219.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.sh'
+[219.626s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib'
+[219.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ld_library_path_lib')
+[219.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.ps1'
+[219.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.dsv'
+[219.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.sh'
+[219.630s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/bin'
+[219.630s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[219.630s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib/python3.10/site-packages'
+[219.630s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/bin'
+[219.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.ps1'
+[219.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.dsv'
+[219.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.sh'
+[219.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.bash'
+[219.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.zsh'
+[219.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/test_pkg/share/colcon-core/packages/test_pkg)
+[219.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[219.745s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg' for CMake module files
+[219.746s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg' for CMake config files
+[219.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'cmake_prefix_path')
+[219.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.ps1'
+[219.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.dsv'
+[219.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/cmake_prefix_path.sh'
+[219.752s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib'
+[219.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ld_library_path_lib')
+[219.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.ps1'
+[219.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.dsv'
+[219.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/hook/ld_library_path_lib.sh'
+[219.757s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/bin'
+[219.757s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[219.758s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/lib/python3.10/site-packages'
+[219.758s] Level 1:colcon.colcon_core.environment:checking '/home/aeluro/training_ws/src/install/test_pkg/bin'
+[219.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.ps1'
+[219.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.dsv'
+[219.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.sh'
+[219.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.bash'
+[219.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeluro/training_ws/src/install/test_pkg/share/test_pkg/package.zsh'
+[219.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeluro/training_ws/src/install/test_pkg/share/colcon-core/packages/test_pkg)
+[219.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[219.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[219.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[219.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[220.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[220.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[220.002s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[220.002s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[220.106s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[220.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[220.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeluro/training_ws/src/install/local_setup.ps1'
+[220.113s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeluro/training_ws/src/install/_local_setup_util_ps1.py'
+[220.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeluro/training_ws/src/install/setup.ps1'
+[220.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeluro/training_ws/src/install/local_setup.sh'
+[220.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeluro/training_ws/src/install/_local_setup_util_sh.py'
+[220.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeluro/training_ws/src/install/setup.sh'
+[220.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeluro/training_ws/src/install/local_setup.bash'
+[220.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeluro/training_ws/src/install/setup.bash'
+[220.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeluro/training_ws/src/install/local_setup.zsh'
+[220.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeluro/training_ws/src/install/setup.zsh'

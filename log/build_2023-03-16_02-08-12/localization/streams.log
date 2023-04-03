@@ -1,0 +1,31 @@
+[0.199s] Invoking command in '/home/aeluro/training_ws/src/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/localization -- -j8 -l8
+[0.454s] [35m[1mConsolidate compiler generated dependencies of target localization_component[0m
+[0.619s] [ 75%] Built target localization_component
+[0.794s] [35m[1mConsolidate compiler generated dependencies of target localization_node[0m
+[0.896s] [100%] Built target localization_node
+[0.952s] Invoked command in '/home/aeluro/training_ws/src/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/localization -- -j8 -l8
+[1.484s] Invoking command in '/home/aeluro/training_ws/src/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/localization
+[1.519s] -- Install configuration: ""
+[1.519s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/lib/localization/localization_node
+[1.522s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/lib/liblocalization_component.so
+[1.522s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/launch
+[1.523s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[1.523s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/config
+[1.524s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/config/localizer_params.yaml
+[1.524s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[1.524s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[1.524s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/environment/ament_prefix_path.sh
+[1.525s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/environment/ament_prefix_path.dsv
+[1.525s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/environment/path.sh
+[1.525s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/environment/path.dsv
+[1.525s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/local_setup.bash
+[1.526s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/local_setup.sh
+[1.528s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/local_setup.zsh
+[1.529s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/local_setup.dsv
+[1.529s] -- Installing: /home/aeluro/training_ws/src/install/localization/share/localization/package.dsv
+[1.530s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/ament_index/resource_index/packages/localization
+[1.530s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[1.530s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/cmake/localizationConfig.cmake
+[1.530s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[1.531s] -- Up-to-date: /home/aeluro/training_ws/src/install/localization/share/localization/package.xml
+[1.810s] Invoked command in '/home/aeluro/training_ws/src/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/localization

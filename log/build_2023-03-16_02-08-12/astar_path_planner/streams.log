@@ -1,0 +1,27 @@
+[0.203s] Invoking command in '/home/aeluro/training_ws/src/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/astar_path_planner -- -j8 -l8
+[0.592s] [35m[1mConsolidate compiler generated dependencies of target astar_path_planner[0m
+[0.750s] [100%] Built target astar_path_planner
+[0.820s] Invoked command in '/home/aeluro/training_ws/src/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/astar_path_planner -- -j8 -l8
+[1.112s] Invoking command in '/home/aeluro/training_ws/src/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/astar_path_planner
+[1.157s] -- Install configuration: ""
+[1.164s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/lib/libastar_path_planner.so
+[1.166s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[1.167s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[1.167s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[1.169s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[1.170s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[1.180s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[1.181s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[1.182s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[1.182s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[1.182s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[1.182s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[1.183s] -- Installing: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.dsv
+[1.183s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[1.183s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[1.183s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.183s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.183s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[1.184s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[1.184s] -- Up-to-date: /home/aeluro/training_ws/src/install/astar_path_planner/share/astar_path_planner/package.xml
+[1.223s] Invoked command in '/home/aeluro/training_ws/src/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/astar_path_planner

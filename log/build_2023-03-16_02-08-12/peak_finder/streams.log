@@ -1,0 +1,30 @@
+[0.264s] Invoking command in '/home/aeluro/training_ws/src/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/peak_finder -- -j8 -l8
+[0.675s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_components[0m
+[0.676s] [ 20%] [32mBuilding CXX object CMakeFiles/peak_finder_components.dir/src/peak_finder_component.cpp.o[0m
+[22.253s] [ 40%] [32m[1mLinking CXX shared library libpeak_finder_components.so[0m
+[24.343s] [ 60%] Built target peak_finder_components
+[24.372s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_node[0m
+[24.414s] [100%] Built target peak_finder_node
+[24.438s] Invoked command in '/home/aeluro/training_ws/src/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/peak_finder -- -j8 -l8
+[24.530s] Invoking command in '/home/aeluro/training_ws/src/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/peak_finder
+[24.543s] -- Install configuration: ""
+[24.544s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/lib/peak_finder/peak_finder_node
+[24.545s] -- Installing: /home/aeluro/training_ws/src/install/peak_finder/lib/libpeak_finder_components.so
+[24.633s] -- Set runtime path of "/home/aeluro/training_ws/src/install/peak_finder/lib/libpeak_finder_components.so" to ""
+[24.633s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[24.634s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[24.634s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[24.635s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[24.635s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/environment/path.sh
+[24.635s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/environment/path.dsv
+[24.635s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/local_setup.bash
+[24.636s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/local_setup.sh
+[24.636s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/local_setup.zsh
+[24.636s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/local_setup.dsv
+[24.637s] -- Installing: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.dsv
+[24.637s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[24.637s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[24.637s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[24.638s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[24.640s] -- Up-to-date: /home/aeluro/training_ws/src/install/peak_finder/share/peak_finder/package.xml
+[24.647s] Invoked command in '/home/aeluro/training_ws/src/build/peak_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/peak_finder

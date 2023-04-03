@@ -1,0 +1,31 @@
+[0.205s] Invoking command in '/home/aeluro/training_ws/src/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/obstacle_detector -- -j8 -l8
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detector[0m
+[0.662s] [ 60%] Built target obstacle_detector
+[0.663s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detector_node[0m
+[0.763s] [100%] Built target obstacle_detector_node
+[0.854s] Invoked command in '/home/aeluro/training_ws/src/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/obstacle_detector -- -j8 -l8
+[1.087s] Invoking command in '/home/aeluro/training_ws/src/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/obstacle_detector
+[1.113s] -- Install configuration: ""
+[1.114s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[1.115s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/lib/libobstacle_detector.so
+[1.115s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/launch
+[1.116s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[1.116s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/config
+[1.117s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[1.118s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[1.119s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[1.119s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[1.119s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[1.120s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[1.120s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[1.120s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[1.120s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[1.121s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[1.121s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[1.122s] -- Installing: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.dsv
+[1.123s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[1.123s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[1.124s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[1.124s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[1.124s] -- Up-to-date: /home/aeluro/training_ws/src/install/obstacle_detector/share/obstacle_detector/package.xml
+[1.374s] Invoked command in '/home/aeluro/training_ws/src/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/obstacle_detector

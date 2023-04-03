@@ -1,0 +1,84 @@
+[0.312s] Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/rj_training_bringup
+[1.177s] -- The C compiler identification is GNU 11.3.0
+[4.068s] -- The CXX compiler identification is GNU 11.3.0
+[5.898s] -- Detecting C compiler ABI info
+[6.564s] -- Detecting C compiler ABI info - done
+[6.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.582s] -- Detecting C compile features
+[6.583s] -- Detecting C compile features - done
+[6.601s] -- Detecting CXX compiler ABI info
+[7.393s] -- Detecting CXX compiler ABI info - done
+[7.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.409s] -- Detecting CXX compile features
+[7.410s] -- Detecting CXX compile features - done
+[7.469s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.986s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[8.339s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.629s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.642s] -- Added test 'lint_cmake' to check CMake code style
+[8.645s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.653s] -- Added test 'xmllint' to check XML markup files
+[8.669s] -- Configuring done
+[8.677s] -- Generating done
+[8.679s] -- Build files have been written to: /home/aeluro/training_ws/src/build/rj_training_bringup
+[8.698s] Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aeluro/training_ws/src/software-training/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/aeluro/training_ws/src/install/rj_training_bringup
+[8.706s] Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/rj_training_bringup -- -j8 -l8
+[8.830s] Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aeluro/training_ws/src/build/rj_training_bringup -- -j8 -l8
+[8.966s] Invoking command in '/home/aeluro/training_ws/src/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/rj_training_bringup
+[8.980s] -- Install configuration: ""
+[8.980s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/behavior_trees
+[8.981s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate_w_replanning.xml
+[8.982s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate.xml
+[8.983s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config
+[8.985s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_final_challenge.yaml
+[8.999s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config/nav_params.yaml
+[8.999s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_7.yaml
+[8.999s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config/aruco_tag_visualization_params.yaml
+[8.999s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_8.yaml
+[9.000s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch
+[9.000s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/navigation.launch.py
+[9.000s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/fake_localizer.launch.py
+[9.000s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/mineral_deposit_tracker.launch.py
+[9.001s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/full_game_stack.launch.xml
+[9.001s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/empty_map_server.launch.py
+[9.001s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects
+[9.001s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_4.launch.xml
+[9.002s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_5.launch.xml
+[9.002s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_1.launch.xml
+[9.002s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_2.launch.xml
+[9.002s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_6.launch.xml
+[9.002s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_7.launch.xml
+[9.003s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_8.launch.xml
+[9.004s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_3.launch.xml
+[9.004s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/maps
+[9.004s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.png
+[9.005s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.yaml
+[9.006s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets
+[9.006s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets/default.yaml
+[9.007s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config
+[9.008s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_5.rviz
+[9.011s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_1.rviz
+[9.016s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_6.rviz
+[9.018s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/final_challenge.rviz
+[9.018s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_8.rviz
+[9.018s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/color_detection.rviz
+[9.019s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_4.rviz
+[9.020s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_7.rviz
+[9.020s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_3.rviz
+[9.023s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/ament_index/resource_index/package_run_dependencies/rj_training_bringup
+[9.024s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/ament_index/resource_index/parent_prefix_path/rj_training_bringup
+[9.027s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.sh
+[9.027s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.dsv
+[9.028s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/environment/path.sh
+[9.028s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/environment/path.dsv
+[9.028s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/local_setup.bash
+[9.030s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/local_setup.sh
+[9.030s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/local_setup.zsh
+[9.030s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/local_setup.dsv
+[9.030s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.dsv
+[9.031s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/ament_index/resource_index/packages/rj_training_bringup
+[9.031s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig.cmake
+[9.031s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig-version.cmake
+[9.032s] -- Installing: /home/aeluro/training_ws/src/install/rj_training_bringup/share/rj_training_bringup/package.xml
+[9.053s] Invoked command in '/home/aeluro/training_ws/src/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aeluro/training_ws/src/build/rj_training_bringup
