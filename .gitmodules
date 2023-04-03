@@ -1,0 +1,3 @@
+[submodule "software-training"]
+	path = software-training
+	url = https://github.com/aeluro1/software-training.git
